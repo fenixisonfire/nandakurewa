@@ -48,7 +48,8 @@
             </div>
 
             <?php
-              $db = new PDO("mysql:dbname=simpsons;host=localhost", "root", "");
+		$db = new PDO("mysql:dbname=simpsons;host=eu-cdbr-azure-west-a.cloudapp.net:3306", "b7b7b6baeefb90", "4e402301");
+              #$db = new PDO("mysql:dbname=simpsons;host=localhost", "root", "");
             ?>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
